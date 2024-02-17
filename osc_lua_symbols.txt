@@ -1,0 +1,374 @@
+LANGUAGE SYMBOLS start  =======================================
+===================================================
+ArgTimetag.SwigStatic -
+  lua:cdata
+===================================================
+ -
+  lua:cdata
+  
+  ArgTimetag.SwigStatic
+  ReceiverSettings.SwigStatic
+  ArgDouble.SwigStatic
+  ArgNone.SwigStatic
+  ArgString
+  ArgBool.SwigStatic
+  Sender.SwigStatic
+  TYPE_MIDI_MESSAGE
+  TYPE_FALSE
+  ArgBlob
+  ArgDouble
+  ParameterSync
+  Receiver.SwigStatic
+  TYPE_STRING
+  ArgMidiMessage.SwigStatic
+  TYPE_NONE
+  SenderSettings.SwigStatic
+  TYPE_DOUBLE
+  Sender
+  TYPE_TIMETAG
+  ArgSymbol
+  TYPE_TRIGGER
+  ArgFloat
+  ParameterSync.SwigStatic
+  ArgString.SwigStatic
+  Bundle
+  TYPE_TRUE
+  Message.SwigStatic
+  ArgInt32.SwigStatic
+  TYPE_SYMBOL
+  TYPE_BLOB
+  ArgTimetag
+  TYPE_INT64
+  ArgTrigger
+  TYPE_INDEXOUTOFBOUNDS
+  Arg
+  Bundle.SwigStatic
+  ArgChar
+  ArgInt64.SwigStatic
+  Message
+  SenderSettings
+  ArgFloat.SwigStatic
+  ArgBool
+  ArgInt64
+  ArgBlob.SwigStatic
+  Receiver
+  TYPE_FLOAT
+  ArgRgbaColor
+  Arg.SwigStatic
+  TYPE_INT32
+  ArgChar.SwigStatic
+  string
+  ArgSymbol.SwigStatic
+  ArgTrigger.SwigStatic
+  string.SwigStatic
+  ArgNone
+  ArgInt.SwigStatic
+  ArgInt
+  TYPE_CHAR
+  TYPE_RGBA_COLOR
+  ArgInt32
+  ArgMidiMessage
+  ArgRgbaColor.SwigStatic
+  ReceiverSettings
+===================================================
+ReceiverSettings.SwigStatic -
+  lua:cdata
+===================================================
+ArgNone.SwigStatic -
+  lua:cdata
+===================================================
+ArgDouble.SwigStatic -
+  lua:cdata
+===================================================
+ArgString -
+  lua:cdata
+  ofxOscArgString
+  set
+  get
+  ~ofxOscArgString
+===================================================
+ArgBool.SwigStatic -
+  lua:cdata
+===================================================
+Sender.SwigStatic -
+  lua:cdata
+===================================================
+ArgBlob -
+  ofxOscArgBlob
+  lua:cdata
+  ~ofxOscArgBlob
+  set
+  get
+===================================================
+ArgDouble -
+  lua:cdata
+  ofxOscArgDouble
+  set
+  get
+  ~ofxOscArgDouble
+===================================================
+ParameterSync -
+  ~ofxOscParameterSync
+  update
+  lua:cdata
+  setup
+  ofxOscParameterSync
+===================================================
+Receiver.SwigStatic -
+  lua:cdata
+===================================================
+ArgMidiMessage.SwigStatic -
+  lua:cdata
+===================================================
+SenderSettings.SwigStatic -
+  lua:cdata
+===================================================
+Sender -
+  ~ofxOscSender
+  getHost
+  getSettings
+  clear
+  getPort
+  __tostring
+  lua:cdata
+  ofxOscSender
+  setup
+  sendBundle
+  copy
+  sendMessage
+  sendParameter
+===================================================
+ArgSymbol -
+  lua:cdata
+  ~ofxOscArgSymbol
+  ofxOscArgSymbol
+===================================================
+ArgFloat -
+  lua:cdata
+  set
+  ofxOscArgFloat
+  get
+  ~ofxOscArgFloat
+===================================================
+ParameterSync.SwigStatic -
+  lua:cdata
+===================================================
+ArgString.SwigStatic -
+  lua:cdata
+===================================================
+Bundle -
+  addBundle
+  clear
+  getBundleCount
+  getBundleAt
+  __tostring
+  lua:cdata
+  ~ofxOscBundle
+  copy
+  addMessage
+  getMessageAt
+  ofxOscBundle
+  getMessageCount
+===================================================
+Message.SwigStatic -
+  lua:cdata
+===================================================
+ArgInt32.SwigStatic -
+  lua:cdata
+===================================================
+ArgTimetag -
+  ~ofxOscArgTimetag
+  lua:cdata
+  set
+  ofxOscArgTimetag
+  get
+===================================================
+ArgTrigger -
+  ofxOscArgTrigger
+  lua:cdata
+  ~ofxOscArgTrigger
+===================================================
+Arg -
+  ~ofxOscArg
+  lua:cdata
+  Arg
+  getTypeName
+  getType
+===================================================
+Bundle.SwigStatic -
+  lua:cdata
+===================================================
+ArgChar -
+  ofxOscArgChar
+  ~ofxOscArgChar
+  lua:cdata
+  set
+  get
+===================================================
+ArgInt64.SwigStatic -
+  lua:cdata
+===================================================
+Message -
+  getArgAsNone
+  lua:cdata
+  getArgAsTimetag
+  getArgAsSymbol
+  addInt64Arg
+  addMidiMessageArg
+  getArgAsInfinitum
+  getArgAsFloat
+  getArgAsDouble
+  getArgAsBlob
+  addBoolArg
+  getArgType
+  setAddress
+  getTypeString
+  addSymbolArg
+  addInfinitumArg
+  getNumArgs
+  ofxOscMessage
+  clear
+  getArgAsTrigger
+  addCharArg
+  getArgAsInt
+  getAddress
+  addFloatArg
+  getArgTypeName
+  addRgbaColorArg
+  addBlobArg
+  getArgAsInt64
+  setRemoteEndpoint
+  getRemoteHost
+  addIntArg
+  addNoneArg
+  getArgAsChar
+  addInt32Arg
+  addTimetagArg
+  getArgAsString
+  getArgAsMidiMessage
+  getArgAsImpulse
+  addDoubleArg
+  __tostring
+  getArgAsBool
+  addTriggerArg
+  getArgAsInt32
+  getArgAsRgbaColor
+  copy
+  ~ofxOscMessage
+  getRemotePort
+  addStringArg
+  addImpulseArg
+===================================================
+SenderSettings -
+  broadcast
+  lua:cdata
+  host
+  SenderSettings
+  port
+  ~ofxOscSenderSettings
+===================================================
+ArgBool -
+  lua:cdata
+  ofxOscArgBool
+  set
+  ~ofxOscArgBool
+  get
+===================================================
+ArgFloat.SwigStatic -
+  lua:cdata
+===================================================
+ArgInt64 -
+  ofxOscArgInt64
+  lua:cdata
+  set
+  ~ofxOscArgInt64
+  get
+===================================================
+ArgBlob.SwigStatic -
+  lua:cdata
+===================================================
+Receiver -
+  stop
+  ofxOscReceiver
+  copy
+  isListening
+  setup
+  getSettings
+  getNextMessage
+  lua:cdata
+  getPort
+  ~ofxOscReceiver
+  __tostring
+  start
+  getParameter
+  hasWaitingMessages
+===================================================
+ArgRgbaColor -
+  ofxOscArgRgbaColor
+  lua:cdata
+  ~ofxOscArgRgbaColor
+===================================================
+Arg.SwigStatic -
+  lua:cdata
+===================================================
+ArgChar.SwigStatic -
+  lua:cdata
+===================================================
+ArgTrigger.SwigStatic -
+  lua:cdata
+===================================================
+ArgSymbol.SwigStatic -
+  lua:cdata
+===================================================
+string -
+  assign
+  size
+  lua:cdata
+  length
+  empty
+  ~string
+  c_str
+  string
+  data
+===================================================
+ArgNone -
+  ~ofxOscArgNone
+  lua:cdata
+  ofxOscArgNone
+===================================================
+string.SwigStatic -
+  lua:cdata
+===================================================
+ArgInt.SwigStatic -
+  lua:cdata
+===================================================
+ArgInt -
+  lua:cdata
+  ~ofxOscArgInt
+  ofxOscArgInt
+===================================================
+ArgInt32 -
+  ~ofxOscArgInt32
+  lua:cdata
+  set
+  get
+  ofxOscArgInt32
+===================================================
+ArgMidiMessage -
+  ofxOscArgMidiMessage
+  lua:cdata
+  ~ofxOscArgMidiMessage
+  set
+  get
+===================================================
+ArgRgbaColor.SwigStatic -
+  lua:cdata
+===================================================
+ReceiverSettings -
+  ~ofxOscReceiverSettings
+  lua:cdata
+  port
+  ReceiverSettings
+  reuse
+  start
+LANGUAGE SYMBOLS finish =======================================
